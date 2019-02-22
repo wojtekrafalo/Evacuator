@@ -1,0 +1,31 @@
+.button
+{
+    -fx-background-radius: 10px;
+    -fx-background-color: #b5b5b5;
+    -fx-text-color: #424242;
+    -fx-border-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-border-color: #424242;
+    -fx-cursor: hand;
+
+}
+
+.VBox
+{
+    -fx-background-color: rgb(47,213,141);
+    -fx-border-width: 7;
+    -fx-border-color: rgb(0,95,54);
+}
+
+.text-area
+{
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 5px;
+    -fx-background-color: rgb(98,248,183);
+}
+
+.label
+{
+    -fx-font-weight: bold ;
+}

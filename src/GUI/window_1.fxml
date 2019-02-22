@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="10.0" style="-fx-background-color: rgb(47,213,141); -fx-border-width: 7; -fx-border-color: rgb(0,95,54);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller1">
+   <HBox fx:id="hbox" alignment="CENTER" prefHeight="162.0" prefWidth="586.0" spacing="15.0">
+      <children>
+         <ImageView fx:id="imgView" fitHeight="169.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true">
+         </ImageView>
+         <ImageView fx:id="imgViewTitle" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+
+      </children>
+   </HBox>
+
+        <Button fx:id="startButton" alignment="BASELINE_CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" prefHeight="57.0" prefWidth="269.0" text="Start" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="24.0" />
+      </font>
+      <VBox.margin>
+         <Insets top="10.0" />
+      </VBox.margin></Button>
+        <Button fx:id="infoButton" alignment="BASELINE_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="57.0" prefWidth="271.0" text="Info" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="24.0" />
+      </font></Button>
+    <stylesheets>
+        <URL value="@karo_style.css" />
+    </stylesheets>
+   <padding>
+      <Insets bottom="5.0" top="5.0" />
+   </padding>
+
+    </VBox>

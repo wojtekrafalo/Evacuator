@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: rgb(47,213,141); -fx-border-width: 7; -fx-border-color: rgb(0,95,54);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller3">
+   <AnchorPane prefHeight="422.0" prefWidth="600.0">
+      <children>
+      
+                <Button fx:id="visButton" alignment="BASELINE_CENTER" contentDisplay="CENTER" layoutX="193.0" layoutY="136.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="400.0" text="Wizualizacyjny" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font size="24.0" />
+            </font></Button>
+          <Button fx:id="statButton" alignment="BASELINE_CENTER" contentDisplay="CENTER" layoutX="193.0" layoutY="203.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="400.0" text="Statystyczny" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font size="24.0" />
+            </font></Button>
+         <Label alignment="CENTER" layoutX="270.0" layoutY="42.0" prefHeight="67.0" prefWidth="260.0" text="Tryb symulacji">
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Label>
+          <Button fx:id="infoButton" contentDisplay="CENTER" layoutX="493.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Info" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font size="20.0" />
+            </font></Button>
+         <Button fx:id="backButton" contentDisplay="CENTER" layoutX="193.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Wróć" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font size="20.0" />
+            </font></Button>
+      </children>
+   </AnchorPane>
+
+    <stylesheets>
+        <URL value="@karo_style.css" />
+    </stylesheets>
+
+</VBox>
