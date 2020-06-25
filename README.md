@@ -7,5 +7,6 @@ Project not finished. I want to rebuild it and develop planned features:
 + Possibility to add exits and stairs.
 + Real-time simulation.
 + Maybe better way would be to develop it in Unity.
++ Add documentation, especially in GitHub repository.
 
 I would use an Observer design pattern.
